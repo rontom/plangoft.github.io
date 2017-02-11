@@ -32,6 +32,7 @@ a {
   color: $theme-primary;
   &:hover, &:focus {
     color: #fcbd20;
+    text-decoration:none;
   }
 }
 
@@ -430,7 +431,7 @@ section {
 }
 
 footer {
-  background-color: #121212;
+  background-color: #212121;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   p {

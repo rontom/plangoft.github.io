@@ -13,7 +13,7 @@ layout: default
                 <h2 class="subheading">{{ page.subtitle }}</h2>
                 {% endif %}
                 <p class="meta">发表： {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 时间： {{ page.date | date: "%Y-%m-%d" }}</p>
-                <a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a>
+                <p><a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a></p>
               </div>
             </div>
         </div>
@@ -31,12 +31,12 @@ layout: default
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 前一篇</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}"><<< 前一篇</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇 &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇 >>></a>
                     </li>
                     {% endif %}
                 </ul>
