@@ -24,15 +24,16 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52; }
+  color: #009168; }
   a:hover, a:focus {
     color: #fcbd20; }
 
 hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1); }
+  max-width: 50%;
+  margin-left: 0;
+  height: 1.8px;
+  background: linear-gradient(to right, #009168, #00ff33);
+  border: none; }
   hr.light {
     border-color: white; }
 
@@ -59,7 +60,7 @@ p {
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
-    color: #fdcc52; }
+    color: #009168; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
       color: #fcbd20; }
   .navbar-default .navbar-header .navbar-toggle {
@@ -75,12 +76,12 @@ p {
     .navbar-default .nav > li > a:focus {
       color: #222222; }
     .navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus:hover {
-      color: #fdcc52; }
+      color: #009168; }
   .navbar-default .nav > li.active > a {
-    color: #fdcc52 !important;
+    color: #009168 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:focus {
-      color: #fdcc52 !important;
+      color: #009168 !important;
       background-color: transparent; }
     .navbar-default .nav > li.active > a:hover, .navbar-default .nav > li.active > a:focus:hover {
       background-color: transparent; }
@@ -105,23 +106,23 @@ p {
       .navbar-default.affix .navbar-header .navbar-brand {
         color: #222222; }
         .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-          color: #fdcc52; }
+          color: #009168; }
       .navbar-default.affix .nav > li > a {
         color: #222222; }
         .navbar-default.affix .nav > li > a:focus {
           color: #222222; }
         .navbar-default.affix .nav > li > a:hover, .navbar-default.affix .nav > li > a:focus:hover {
-          color: #fdcc52; } }
+          color: #009168; } }
 header {
   position: relative;
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #009168;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #009168, #006141);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #009168, #006141);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white; }
   header .header-content {
@@ -210,8 +211,8 @@ section {
       font-size: 30px; }
     section.features .feature-item i {
       font-size: 80px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
+      background: -webkit-linear-gradient(to left, #009168, #006141);
+      background: linear-gradient(to left, #009168, #006141);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   section.cta {
@@ -327,12 +328,12 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: #009168;
+  background: -webkit-linear-gradient(#009168, #fdc539);
+  background: linear-gradient(#009168, #fdc539); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #009168; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -344,8 +345,8 @@ footer {
   border: 1px solid; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
-    background-color: #fdcc52;
-    border-color: #fdcc52; }
+    background-color: #009168;
+    border-color: #009168; }
 
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -381,7 +382,7 @@ body {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(253, 204, 82, 0.9);
+    background: rgba(0, 145, 104, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
