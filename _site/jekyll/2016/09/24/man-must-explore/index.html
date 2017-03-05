@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 
 <head>
 
@@ -46,26 +46,29 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> 目录 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="/">Langoft</a>
+            <a class="navbar-brand page-scroll" href="#page-top">langoft</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              <li>
+                  <a class="page-scroll" href="/">首页</a>
+              </li>
                 <li>
-                    <a href="/">首页</a>
+                    <a class="page-scroll" href="/#features">专业</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/funds">项目</a>
+                    <a class="page-scroll" href="/#portfolio">项目</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="/blog/">博客</a>
+                    <a class="page-scroll" href="/#services">服务</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">联系</a>
+                    <a class="page-scroll" href="/#contact">联系</a>
                 </li>
                 <li>
-                    <a class="outer-menu">menu</a>
+                    <a href="/blog/">博客</a>
                 </li>
             </ul>
         </div>
@@ -76,18 +79,21 @@
 
 
   <!-- Post Header -->
-<header id="header" class="intro-header bg-primary text-center" style="background-image: url('/img/post-bg-06.jpg'),linear-gradient(to bottom, #00a168, #003141);">
+<canvas id="canvas-image"></canvas>
+<header id="header-blog" class="intro-header bg-primary text-center" style="background-image: url('/img/post-bg-06.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-2 col-md-12">
               <div class="post-heading">
                 <h1>Man must explore, and this is exploration at its greatest</h1>
                 
                 <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
                 
-                <p class="meta">发表： Antonio Trento 时间： 2016-09-24</p>
-                <p><a href="#post" class="page-scroll"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a></p>
+                <p><small>发表:</small>Antonio Trento  </p>
+                <p><small>时间:</small>2016-09-24</p>
+               
               </div>
+               <p><a href="#post" class="page-scroll  white"><i class="fa fa-fw fa-2x fa-arrow-down"></i></a></p>
             </div>
         </div>
     </div>
@@ -96,8 +102,8 @@
 <article>
     <div id="post" class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+            <div class="col-lg-8 col-lg-offset-2  col-md-12">
+				 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
 <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
 
@@ -215,7 +221,7 @@
 <script src="/js/wow.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/js/creative.js"></script>
+<!-- <script src="/js/creative.js"></script> -->
 
 <!-- jQuery
 <script src="/vendor/jquery/jquery.min.js"></script> -->

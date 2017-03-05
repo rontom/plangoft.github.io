@@ -30,10 +30,10 @@ a {
     text-decoration: none; }
 
 hr {
-  max-width: 50%;
+  max-width: 100%;
   margin-left: 0;
   height: 1.8px;
-  background: linear-gradient(to right, #009168, #00ff33);
+  background: linear-gradient(to right, #009168, #006186);
   border: none; }
   hr.light {
     border-color: white; }
@@ -175,15 +175,13 @@ header {
   header .header-content .header-content-inner h1 {
     font-size: 50px; } }
 section {
-  padding: 100px 0; }
+  padding: 60px 0; }
   section h2 {
     font-size: 50px; }
   section.download {
-    padding: 150px 0;
     position: relative; }
     section.download h2 {
-      margin-top: 0;
-      font-size: 50px; }
+      margin-top: 0; }
     section.download .badges .badge-link {
       display: block;
       margin-bottom: 25px; }
@@ -305,7 +303,7 @@ section {
     margin-bottom: 0; } }
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px; } }
+    font-size: 36px; } }
 @media (min-width: 992px) {
   section.features .device-container {
     margin-bottom: 0; } }
@@ -482,3 +480,41 @@ body {
     font-size: 55px; }
   .intro-header .post-heading .subheading {
     font-size: 30px; } }
+#contact {
+  background: linear-gradient(to bottom, #009168, #007131);
+  color: #fff; }
+
+#canvas-image {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position-x: 50%; }
+
+.section-box {
+  padding: 15px;
+  color: #666; }
+  .section-box h2 {
+    font-size: 36px; }
+
+.white {
+  color: #fff; }
+
+.bgwhite {
+  background: linear-gradient(to right, #ebebeb, #ebebeb); }
+
+.articles ul {
+  padding: 0; }
+
+.header-content-inner {
+  padding: 15px; }
+
+.header-content-inner img {
+  margin: auto; }
+
+.pager li > a, .pager li > span {
+  border-radius: 1px; }
